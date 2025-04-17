@@ -1,75 +1,46 @@
 body {
-    background-color: #1a1a2e;
-    color: #fefefe;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #0f3460;
-    padding: 20px;
+    background: #000;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
     text-align: center;
   }
   
   h1 {
-    font-size: 3em;
-    margin: 0;
+    color: #ff4757;
   }
   
-  .tagline {
-    font-style: italic;
-    margin-top: 5px;
-    color: #e94560;
+  ul {
+    list-style: none;
+    padding: 0;
   }
   
-  section {
-    padding: 40px 20px;
-    text-align: center;
+  ul li::before {
+    content: "🛸 ";
   }
   
-  .quotes ul {
-    list-style-type: '👽 ';
-    padding-left: 0;
-  }
-  
-  .quotes li {
-    font-size: 1.2em;
-    margin: 10px 0;
-  }
-  
-  .gallery .images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .gallery img {
-    width: 120px;
-    height: auto;
-    border: 3px solid #e94560;
+  img {
+    display: block;
+    margin: 20px auto;
     border-radius: 10px;
-    background-color: #16213e;
-    padding: 5px;
-    transition: transform 0.3s ease;
-  }
-  
-  .gallery img:hover {
-    transform: scale(1.2) rotate(5deg);
-  }
-  
-  .story p {
-    max-width: 800px;
-    margin: 10px auto;
-    line-height: 1.6;
-    font-size: 1.1em;
   }
   
   footer {
-    background-color: #0f3460;
-    text-align: center;
-    padding: 20px;
-    color: #aaa;
+    margin-top: 40px;
+  }
+  
+  .btn {
+    background: #ff4757;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #ff6b81;
   }
   
